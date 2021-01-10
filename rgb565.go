@@ -10,7 +10,7 @@ import (
 	"math"
 )
 
-// RGBA is an in-memory image whose At method returns color.RGBA values.
+// RGB565 is an in-memory image whose At method returns RGB565 values.
 type RGB565 struct {
 	// Pix holds the image's pixels, as RGB565 values in big-endian format. The pixel at
 	// (x, y) starts at Pix[(y-p.Rect.Min.Y)*p.Stride + (x-p.Rect.Min.X)*2].
