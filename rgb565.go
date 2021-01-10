@@ -21,10 +21,10 @@ type RGB565 struct {
 	Rect image.Rectangle
 }
 
-//Model is the Model for RGB565 colors.
+// Model is the model for RGB565 colors.
 var Model = color.ModelFunc(rgb565Model)
 
-//Color represents a RGB565 color.
+// Color represents a RGB565 color.
 type Color struct {
 	RGB565 uint16
 }
